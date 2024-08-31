@@ -3,9 +3,21 @@ This code implements the algorithm in the 2024 ICRA paper [Constraints and Strea
 
 ![COAST](imgs/combined.png)
 
+### Prerequisites
+
+- Python 3.9 or higher
+- Conda (recommended for environment management)
+
+## Setup Conda environment
+```
+conda create -n coast python=3.9
+conda activate coast
+pip install -e .
+```
+
 ## Installing external libraries from source
 ```
-cd externals
+mkdir externals && cd externals
 
 git clone https://github.com/branvu/pybullet-planning.git@coast_changes
 cd pybullet_planning
@@ -25,19 +37,10 @@ conda install -c conda-forge cmake=3.25
 pip install -e .
 cd ../..
 ```
-## Installing other dependencies
-```
-pip install -e .
-```
-
-### Prerequisites
-
-- Python 3.9 or higher
-- Conda (recommended for environment management)
 
 ### Run Benchmarks
 
-### Run Rover Domain (Ported from PDDLStream)
+### Run Rover Domain (Ported from [PDDLStream](https://github.com/caelan/pddlstream))
 ```
 python envs/rover/run.py
 ```
@@ -45,7 +48,7 @@ python envs/rover/run.py
 ```
 python envs/sorting/run.py
 ```
-### Run Kuka "Kitchen"
+### Run Kuka "Kitchen" (Ported from [PDDLStream](https://github.com/caelan/pddlstream))
 ```
 python envs/kuka/run.py
 ```
