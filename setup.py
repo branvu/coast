@@ -20,8 +20,6 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        # Add your dependencies here
-        # For example:
         "numpy==1.23.0",
         "scipy==1.8.1",
         "spatialdyn==1.5.0",

@@ -1,6 +1,8 @@
 # COAST
 This code implements the algorithm in the 2024 ICRA paper [Constraints and Streams for Task and Motion Planning](https://ieeexplore.ieee.org/document/10611670)
 
+![COAST](imgs/combined.png)
+
 ## Installing external libraries from source
 ```
 cd externals
@@ -35,7 +37,7 @@ pip install -e .
 
 ### Run Benchmarks
 
-### Run Rover
+### Run Rover Domain (Ported from PDDLStream)
 ```
 python envs/rover/run.py
 ```
