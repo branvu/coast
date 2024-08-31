@@ -1,0 +1,10 @@
+coast/**/__pycache__/
+coast/**/*.pyc
+coast.egg-info/
+envs/rover/__pycache__/
+envs/__pycache__/
+envs/rover/__pycache__/run.cpython-39.pyc
+envs/block/__pycache__/
+envs/kuka/__pycache__/
+envs/sorting/__pycache__/
+external/

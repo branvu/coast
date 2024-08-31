@@ -1,0 +1,3 @@
+(pick b1 loc8)
+(place b1 loc5)
+; cost = 2 (unit cost)

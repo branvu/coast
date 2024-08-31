@@ -1,0 +1,18 @@
+(define (problem blocks)
+	(:domain blocks)
+	(:objects
+	)
+	(:init
+		(ontable b1 loc8)
+		(clear loc6)
+		(clear loc7)
+		(handempty )
+		(clear loc1)
+		(clear loc9)
+		(clear loc4)
+		(clear loc5)
+		(clear loc2)
+		(clear loc3)
+	)
+	(:goal (ontable b1 loc5))
+)
