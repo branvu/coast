@@ -19,9 +19,8 @@ pip install -e .
 ```
 mkdir externals && cd externals
 
-git clone https://github.com/branvu/pybullet-planning.git@coast_changes
+git clone --branch coast_changes https://github.com/branvu/pybullet-planning.git
 cd pybullet_planning
-git checkout coast_changes
 pip install -e .
 cd ..
 
