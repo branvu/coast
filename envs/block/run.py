@@ -47,7 +47,7 @@ def load_world(num_blocks: int = 5, timestep: bool = False) -> World:
         table = pbt.utils.load_model("models/long_floor.urdf")
         ab = dyn.urdf.load_model(
             str(
-                pathlib.Path("external/pybullet-planning")
+                pathlib.Path("externals/pybullet-planning")
                 / pbt.utils.DRAKE_IIWA_URDF
             )
         )
