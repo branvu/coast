@@ -17,7 +17,7 @@ pip install -e .
 
 ## Installing external libraries from source
 ```
-mkdir externals && cd externals
+mkdir external && cd external
 
 git clone --branch coast_changes https://github.com/branvu/pybullet-planning.git
 cd pybullet_planning
